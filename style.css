@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}   
+   
+   
+   body {
+            background-color: antiquewhite;
+        }
+
+        header {
+            background-color: navy;
+            padding: 10px;
+            height: 50px;
+
+            align-items: center;
+        }
+
+        div {
+
+            display: flex;
+            width: auto;
+            gap: 10px;
+
+        }
+
+        header>div>button {
+            width: 200px;
+            background-color: antiquewhite;
+
+        }
+
+        input[type=search] {
+            width: 200px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: white;
+            background-image: url('searchicon.png');
+            background-position: 0px;
+            background-size: contain; 
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+        }
+
+
+        .nav1 {
+            display: flex;
+            justify-content: center;
+            background-color: black;
+            color: white;
+        }
+
+        .nav1 ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style-type: none;
+            gap: 20px;
+        }
+
+        ul li:hover {
+            border: 2px solid antiquewhite;
+            border-radius: 5px;
+        }
+
+        .nav2 {
+            display: flex;
+            justify-content: center;
+            background-color: lightcyan;
+
+        }
+
+        .nav2 ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style-type: none;
+            gap: 25px;
+
+        }
+
+        .bold {
+            border-style: none;
+            font-size: large;
+            font-style: initial;
+        }
+
+        .nav2 ul li:hover {
+            border-bottom: 2px solid orangered;
+        }
+
+        .nav2 ul li:nth-child(1):hover {
+            border-bottom: none;
+        }
+
+        .img9>img {
+            width: 130px;
+            padding: 10px;
+        }
+
+        .cnt>img {
+            width: 240px;
+        }
+.bigsell
+        .bigsell>img {
+            width:200px;
+            margin: 10px;
+        }
+
+        .box1 {
+            display: block;
+            width: 500px;
+            background-color:lightcyan;
+        }
+
+        .box1>div {
+            display: inline-block;
+            margin: 2px;
+        }
+
+        div>p {
+            text-align: center;
+        }
+
+        .para {
+            font-size: x-large;
+            font-style: initial; 
+        }
+
+        .box2 {
+            display: block;
+            width: 500px;
+            background-color: lightcyan;
+        }
+
+        .box2>div {
+            display: inline-block;
+            margin: 2px;
+        }
+
+        .para2 {
+            font-size: x-large;
+            font-style: initial;
+        }
+
+        .box3
+        {  
+         display:block;
+         width: 500px;
+         background-color: lightcyan;
+}
+.box3>div {
+            display: inline-block;
+            margin: 2px;
+        }
+#conatiner{
+    display: flex;   
+    
+}
+.cloth>#demo {
+    display:flex;
+    justify-content: space-evenly;
+}
+.cloth>#demo img{
+    width: 370px;
+        height: 300px;  
+}
+.cloth>#demo2 {
+    display: flex;
+  
+}
+.cloth>#demo2 img{
+    width: 370px;
+        height: 300px;  
+}
+.cloth>#demo p{
+    font-size: medium;
+    top: 200PX;
+    left: 10PX;
+}
